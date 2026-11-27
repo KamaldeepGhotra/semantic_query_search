@@ -1,0 +1,8 @@
+# ThalamusDB experiment environment (.venv-tdb). Python 3.14.
+# sqlglot is pinned to the version the authors' v1 code was written against.
+sqlglot==10.2.6
+duckdb==2.0.1
+pandas==2.3.3
+numpy==2.5.5
+pyarrow==26.0.1
+scipy==1.18.1

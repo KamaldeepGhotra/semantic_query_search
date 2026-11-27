@@ -1,0 +1,27 @@
+# Environments
+.venv/
+.venv-tdb/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large artifacts (datasets, model weights). Gemma score caches are small and kept.
+data/*
+!data/scores/
+models/
+
+# Raw run logs are ignored; per-run result CSVs are kept.
+logs/*
+!logs/*.csv
+
+# Upstream clones (see README)
+repo_thalamusdb/
+repo_thalamusdb_v2/
+repo_abae/
+
+# Paper (not redistributed)
+paper/
+
+# Editor
+.idea/
+.vscode/
